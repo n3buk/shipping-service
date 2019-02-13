@@ -14,10 +14,13 @@
   "author": "",
   "license": "ISC",
   "jest": {
-  "testEnvironment": "node"
+    "testEnvironment": "node"
   },
   "bugs": {
     "url": "https://github.com/n3buk/shipping-service/issues"
   },
-  "homepage": "https://github.com/n3buk/shipping-service#readme"
+  "homepage": "https://github.com/n3buk/shipping-service#readme",
+  "devDependencies": {
+    "sinon": "^7.2.3"
+  }
 }
