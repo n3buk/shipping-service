@@ -21,7 +21,7 @@ describe('Shipping controller', function () {
   })
 
   it('Should calculate correct shipping ', async function () {
-    let shipping = await shippingCtrl.getItemShipping({ id: 1, type: 'standard' })
+    let shipping = await shippingCtrl.getItemShipping({ id: 1, type: 'overnight' })
     expect(shipping).toBe(0.5)
   })
 
